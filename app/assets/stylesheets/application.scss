@@ -14,3 +14,33 @@
  *= require_self
  */
 @import "bootstrap";
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
+
+
+header {
+    background-color: darkslategrey;
+    line-height: 50px;
+}
+
+body {
+  width: 100%;
+  height: 100;
+}
+
+.navbar-nav {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.fas {
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: #fff;
+}
