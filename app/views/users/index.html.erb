@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="container container px-5 px-sm-0">
   <div class="row">
     <div class="col-3">
@@ -27,5 +28,19 @@
         </tbody>
       </table>
     </div>
+=======
+<div class="container px-5 px-sm-0">
+ <div class ="row">
+  <div class ="col-md-3">
+    <h2>User info</h2>
+      <%= render 'info', user: current_user %>
+    <h2 class="mt-3">New book</h2>
+      <%= render 'books/form', book: @book %>
+  </div>
+  <div class="col-md-8 offset-md-1">
+    <h2>Users</h2>
+      <%= render 'index',users: @users %>
+  </div>
+>>>>>>> 0cf05d04bb43dbb35fb6ae67574f2a81a48de563
   </div>
 </div>
