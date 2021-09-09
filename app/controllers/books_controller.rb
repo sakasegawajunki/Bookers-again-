@@ -22,19 +22,7 @@ class BooksController < ApplicationController
       render 'index'
     end
   end
-<<<<<<< HEAD
 
-  def show
-    @book = Book.find(params[:id])
-    @user = @book.user
-=======
-  
-  def edit
-  end
-  
-  def update
->>>>>>> 0cf05d04bb43dbb35fb6ae67574f2a81a48de563
-  end
 
   def edit
     @book = Book.find(params[:id])
